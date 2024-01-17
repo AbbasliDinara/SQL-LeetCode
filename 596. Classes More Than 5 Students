@@ -1,0 +1,4 @@
+select class
+from courses
+having count(*)>=5
+group by class;
