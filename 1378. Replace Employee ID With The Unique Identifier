@@ -1,0 +1,12 @@
+/*select uni.unique_id,
+       emp.name   
+from employees emp
+left join employeeuni uni 
+on emp.id=uni.id;
+
+*/
+ select uni.unique_id,
+       emp.name   
+from employeeuni uni
+right join  employees emp
+on emp.id=uni.id;
